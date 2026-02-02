@@ -1,0 +1,22 @@
+{% extends 'common/index.html' %}
+{% load static %}
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'common/css/menu.css' %}">
+{% endblock styles %}
+{% block content %}
+    <div class="menu">
+        <h1>{{ title }}</h1>
+        <hr>
+        <ul class="menu_list">
+            {% for object in object_list %}
+                <li>
+                    <a class="menu_link" href="{% url object.path %}">{{ object.title }}</a>
+                </li>
+            {% endfor %}
+            {% if back_exists %}
+                <br>
+                <a class="menu_link" href="{% url back %}">Назад</a>
+            {% endif %}
+        </ul>
+    </div>
+{% endblock content %}

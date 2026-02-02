@@ -1,0 +1,24 @@
+{% extends 'common/index.html' %}
+{% block content %}
+    <div style="text-align: center;">
+        <h1>{{ title }}</h1>
+        <hr>
+        <div>
+            Цена: {{ object.price }} ₽
+            <br>
+            Год выпуска: {{ object.release_date.year }}
+            <br>
+            LTE:
+            {% if object.lte_exists %}
+                Есть
+            {% else %}
+                Нет
+            {% endif %}
+            <br>
+            <img height="400" src="{{ object.image }}" alt="{{ object.name }}" />
+        </div>
+        <p>
+            <a href="{% url back %}?sort={{ sort }}">Назад</a>
+        </p>
+    </div>
+{% endblock content %}

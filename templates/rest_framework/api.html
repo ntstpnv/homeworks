@@ -1,0 +1,10 @@
+{% extends "rest_framework/base.html" %}
+{% block body %}
+    <html lang="ru">
+        {{ block.super }}
+        <a href="#"
+           onclick="var p=location.pathname;location.href=p.split('api/')[0];return false;"
+           style="position: fixed;
+                  top: 80px;
+                  left: 80px">Назад</a>
+    {% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'common/index.html' %}
+{% block content %}
+    <div style="text-align: center;">
+        <h1>{{ title }}</h1>
+        <hr>
+        <div style="display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 32px">
+            <div>
+                <img src="{{ object.image.url }}"
+                     alt="{{ object.name }}"
+                     style="width: 100%;
+                            height: auto;
+                            display: block;
+                            border-radius: 64px">
+            </div>
+            <div style="text-align: left;">
+                <p>
+                    <a href="?servings=1">одна порция</a> |
+                    <a href="?servings=2">две порции</a> |
+                    <a href="?servings=4">четыре порции</a>
+                </p>
+                <ul>
+                    {% for object in objects %}<li>{{ object }}</li>{% endfor %}
+                </ul>
+            </div>
+        </div>
+        <p>
+            <a href="{% url back %}?page={{ page }}">Назад</a>
+        </p>
+    </div>
+{% endblock content %}

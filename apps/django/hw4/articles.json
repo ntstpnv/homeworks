@@ -1,0 +1,706 @@
+[
+{
+  "model": "hw4.student",
+  "pk": 113,
+  "fields": {
+    "name": "Тихон Аксёнович Лазарев"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 114,
+  "fields": {
+    "name": "Кузьмина Жанна Петровна"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 115,
+  "fields": {
+    "name": "Лобанов Ладислав Власович"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 116,
+  "fields": {
+    "name": "Надежда Харитоновна Емельянова"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 117,
+  "fields": {
+    "name": "Алина Феликсовна Давыдова"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 118,
+  "fields": {
+    "name": "Ферапонт Арсенович Архипов"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 119,
+  "fields": {
+    "name": "Мишина Зоя Олеговна"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 120,
+  "fields": {
+    "name": "Шашков Борис Ильясович"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 121,
+  "fields": {
+    "name": "Трофим Даниилович Тетерин"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 122,
+  "fields": {
+    "name": "Филатов Самуил Викторович"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 123,
+  "fields": {
+    "name": "Тамара Валериевна Шарова"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 124,
+  "fields": {
+    "name": "Акулина Павловна Калинина"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 125,
+  "fields": {
+    "name": "Прокл Юлианович Кириллов"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 126,
+  "fields": {
+    "name": "Лазарев Венедикт Федотович"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 127,
+  "fields": {
+    "name": "Панкратий Борисович Васильев"
+  }
+},
+{
+  "model": "hw4.student",
+  "pk": 128,
+  "fields": {
+    "name": "Шарапов Тарас Антонович"
+  }
+},
+{
+  "model": "hw4.course",
+  "pk": 29,
+  "fields": {
+    "name": "Мотивация вертикальных систем снабжения"
+  }
+},
+{
+  "model": "hw4.course",
+  "pk": 30,
+  "fields": {
+    "name": "Максимизация интерактивных технологий"
+  }
+},
+{
+  "model": "hw4.course",
+  "pk": 31,
+  "fields": {
+    "name": "Перезагрузка современных партнерств"
+  }
+},
+{
+  "model": "hw4.course",
+  "pk": 32,
+  "fields": {
+    "name": "Объединение интерактивных метрик"
+  }
+},
+{
+  "model": "hw4.lecturer",
+  "pk": 57,
+  "fields": {
+    "name": "Сергеева Тамара Матвеевна"
+  }
+},
+{
+  "model": "hw4.lecturer",
+  "pk": 58,
+  "fields": {
+    "name": "Ипат Яковлевич Моисеев"
+  }
+},
+{
+  "model": "hw4.lecturer",
+  "pk": 59,
+  "fields": {
+    "name": "Дьячкова Раиса Анатольевна"
+  }
+},
+{
+  "model": "hw4.lecturer",
+  "pk": 60,
+  "fields": {
+    "name": "Терентий Жоресович Кулагин"
+  }
+},
+{
+  "model": "hw4.lecturer",
+  "pk": 61,
+  "fields": {
+    "name": "Гедеон Викентьевич Крюков"
+  }
+},
+{
+  "model": "hw4.lecturer",
+  "pk": 62,
+  "fields": {
+    "name": "Юлий Ефимьевич Гуляев"
+  }
+},
+{
+  "model": "hw4.lecturer",
+  "pk": 63,
+  "fields": {
+    "name": "Таисия Кузьминична Фомина"
+  }
+},
+{
+  "model": "hw4.lecturer",
+  "pk": 64,
+  "fields": {
+    "name": "Ильина Ираида Ниловна"
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 292,
+  "fields": {
+    "student": 113,
+    "course": 32
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 293,
+  "fields": {
+    "student": 113,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 294,
+  "fields": {
+    "student": 113,
+    "course": 31
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 295,
+  "fields": {
+    "student": 114,
+    "course": 32
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 296,
+  "fields": {
+    "student": 114,
+    "course": 29
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 297,
+  "fields": {
+    "student": 114,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 298,
+  "fields": {
+    "student": 115,
+    "course": 32
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 299,
+  "fields": {
+    "student": 115,
+    "course": 31
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 300,
+  "fields": {
+    "student": 116,
+    "course": 32
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 301,
+  "fields": {
+    "student": 116,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 302,
+  "fields": {
+    "student": 116,
+    "course": 31
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 303,
+  "fields": {
+    "student": 117,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 304,
+  "fields": {
+    "student": 118,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 305,
+  "fields": {
+    "student": 118,
+    "course": 31
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 306,
+  "fields": {
+    "student": 119,
+    "course": 29
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 307,
+  "fields": {
+    "student": 119,
+    "course": 31
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 308,
+  "fields": {
+    "student": 120,
+    "course": 32
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 309,
+  "fields": {
+    "student": 121,
+    "course": 32
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 310,
+  "fields": {
+    "student": 121,
+    "course": 29
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 311,
+  "fields": {
+    "student": 121,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 312,
+  "fields": {
+    "student": 121,
+    "course": 31
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 313,
+  "fields": {
+    "student": 122,
+    "course": 32
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 314,
+  "fields": {
+    "student": 123,
+    "course": 29
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 315,
+  "fields": {
+    "student": 123,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 316,
+  "fields": {
+    "student": 124,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 317,
+  "fields": {
+    "student": 125,
+    "course": 32
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 318,
+  "fields": {
+    "student": 125,
+    "course": 29
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 319,
+  "fields": {
+    "student": 125,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 320,
+  "fields": {
+    "student": 125,
+    "course": 31
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 321,
+  "fields": {
+    "student": 126,
+    "course": 32
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 322,
+  "fields": {
+    "student": 126,
+    "course": 29
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 323,
+  "fields": {
+    "student": 126,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 324,
+  "fields": {
+    "student": 126,
+    "course": 31
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 325,
+  "fields": {
+    "student": 127,
+    "course": 32
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 326,
+  "fields": {
+    "student": 127,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 327,
+  "fields": {
+    "student": 128,
+    "course": 32
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 328,
+  "fields": {
+    "student": 128,
+    "course": 29
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 329,
+  "fields": {
+    "student": 128,
+    "course": 30
+  }
+},
+{
+  "model": "hw4.studentcourse",
+  "pk": 330,
+  "fields": {
+    "student": 128,
+    "course": 31
+  }
+},
+{
+  "model": "hw4.courselecturer",
+  "pk": 57,
+  "fields": {
+    "course": 29,
+    "lecturer": 57
+  }
+},
+{
+  "model": "hw4.courselecturer",
+  "pk": 58,
+  "fields": {
+    "course": 29,
+    "lecturer": 58
+  }
+},
+{
+  "model": "hw4.courselecturer",
+  "pk": 59,
+  "fields": {
+    "course": 30,
+    "lecturer": 59
+  }
+},
+{
+  "model": "hw4.courselecturer",
+  "pk": 60,
+  "fields": {
+    "course": 30,
+    "lecturer": 60
+  }
+},
+{
+  "model": "hw4.courselecturer",
+  "pk": 61,
+  "fields": {
+    "course": 31,
+    "lecturer": 61
+  }
+},
+{
+  "model": "hw4.courselecturer",
+  "pk": 62,
+  "fields": {
+    "course": 31,
+    "lecturer": 62
+  }
+},
+{
+  "model": "hw4.courselecturer",
+  "pk": 63,
+  "fields": {
+    "course": 32,
+    "lecturer": 64
+  }
+},
+{
+  "model": "hw4.courselecturer",
+  "pk": 64,
+  "fields": {
+    "course": 32,
+    "lecturer": 63
+  }
+},
+{
+  "model": "hw4.article",
+  "pk": 1,
+  "fields": {
+    "image": "th_946876594_EntghVT.jpg",
+    "title": "В \"Детском мире\" на Лубянке откроют музей",
+    "text": "\"В Москве нет музея, связанного с темой детства, игрушки, детскими играми, и это отрицательно сказывается на образе столицы\", - считает заведующий музейно-выставочным отделом департамента культуры Москвы Антон Горянов.",
+    "published_at": "2018-09-30T19:26:52Z"
+  }
+},
+{
+  "model": "hw4.article",
+  "pk": 2,
+  "fields": {
+    "image": "th_1488217075_CVC0Ltk.jpg",
+    "title": "Ученые доказали вред периодического курения",
+    "text": "Кливлендские ученые опубликовали результаты исследования 78 пар близнецов, в каждой из которых один из двойняшек курил, а второй нет.",
+    "published_at": "2018-08-30T20:04:44Z"
+  }
+},
+{
+  "model": "hw4.article",
+  "pk": 3,
+  "fields": {
+    "image": "th_1521804489_cfyJCMV.jpg",
+    "title": "Директор ИКИ РАН прокомментировал инициативы по созданию базы на Луне",
+    "text": "Лунная база должна быть международным проектом — ни одна из космических держав сегодня не может осваивать спутник Земли без помощи партнеров, заявил директор Института космических исследований РАН, член-корреспондент РАН Анатолий Петрукович.",
+    "published_at": "2018-07-30T20:08:20Z"
+  }
+},
+{
+  "model": "hw4.tag",
+  "pk": 1,
+  "fields": {
+    "name": "А-тэг"
+  }
+},
+{
+  "model": "hw4.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Б-тэг"
+  }
+},
+{
+  "model": "hw4.tag",
+  "pk": 3,
+  "fields": {
+    "name": "В-тэг"
+  }
+},
+{
+  "model": "hw4.articletag",
+  "pk": 1,
+  "fields": {
+    "article": 1,
+    "tag": 1,
+    "is_main": true
+  }
+},
+{
+  "model": "hw4.articletag",
+  "pk": 2,
+  "fields": {
+    "article": 1,
+    "tag": 2,
+    "is_main": false
+  }
+},
+{
+  "model": "hw4.articletag",
+  "pk": 4,
+  "fields": {
+    "article": 3,
+    "tag": 1,
+    "is_main": false
+  }
+},
+{
+  "model": "hw4.articletag",
+  "pk": 5,
+  "fields": {
+    "article": 3,
+    "tag": 2,
+    "is_main": true
+  }
+},
+{
+  "model": "hw4.articletag",
+  "pk": 6,
+  "fields": {
+    "article": 3,
+    "tag": 3,
+    "is_main": false
+  }
+},
+{
+  "model": "hw4.articletag",
+  "pk": 7,
+  "fields": {
+    "article": 2,
+    "tag": 1,
+    "is_main": false
+  }
+},
+{
+  "model": "hw4.articletag",
+  "pk": 8,
+  "fields": {
+    "article": 2,
+    "tag": 2,
+    "is_main": false
+  }
+},
+{
+  "model": "hw4.articletag",
+  "pk": 9,
+  "fields": {
+    "article": 2,
+    "tag": 3,
+    "is_main": true
+  }
+},
+{
+  "model": "hw4.articletag",
+  "pk": 10,
+  "fields": {
+    "article": 1,
+    "tag": 3,
+    "is_main": false
+  }
+}
+]

@@ -1,0 +1,23 @@
+[project]
+name = "homeworks"
+version = "0.0.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "django>=6.0",
+    "django-debug-toolbar>=6.1.0",
+    "django-environ>=0.12.0",
+    "django-filter>=25.2",
+    "djangorestframework>=3.16.1",
+    "djlint>=1.36.4",
+    "faker>=40.1.2",
+    "pillow>=12.1.0",
+    "psycopg2-binary>=2.9.11",
+]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "semver2"
+version_provider = "uv"
+update_changelog_on_bump = true

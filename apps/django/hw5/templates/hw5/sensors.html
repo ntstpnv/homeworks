@@ -1,0 +1,16 @@
+{% extends 'common/index.html' %}
+{% block content %}
+    <h1>{{ title }}</h1>
+    <hr>
+    {% for object in object_list %}
+        {% if object.path %}
+            <a href="{% url object.path %}">{{ object.title }}</a>
+        {% else %}
+            <a href="{% url 'sensor-detail' object.id %}">{{ object.name }}</a>
+        {% endif %}
+        <br>
+    {% endfor %}
+    <p>
+        <a href="{% url back %}">Назад</a>
+    </p>
+{% endblock content %}

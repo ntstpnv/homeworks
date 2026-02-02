@@ -1,0 +1,11 @@
+{% extends 'common/index.html' %}
+{% block content %}
+    <h1>{{ title }}</h1>
+    <hr>
+    {% for object in object_list %}
+        {{ object }}
+        <br>
+    {% endfor %}
+    <br>
+    <a href="{% url back %}">Назад</a>
+{% endblock content %}

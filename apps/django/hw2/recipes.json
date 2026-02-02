@@ -1,0 +1,546 @@
+[
+{
+  "model": "hw2.dish",
+  "pk": 1,
+  "fields": {
+    "name": "Закусочный рулет с сыром",
+    "slug": "zakusochnyj-rulet-s-syrom",
+    "image": "zakusochnyj-rulet-s-syrom.jpg"
+  }
+},
+{
+  "model": "hw2.dish",
+  "pk": 2,
+  "fields": {
+    "name": "Апельсиновый мармелад",
+    "slug": "apelsinovyj-marmelad",
+    "image": "apelsinovyj-marmelad.jpg"
+  }
+},
+{
+  "model": "hw2.dish",
+  "pk": 3,
+  "fields": {
+    "name": "Салат из крапивы и черемши",
+    "slug": "salat-iz-krapivy-i-cheremshi",
+    "image": "salat-iz-krapivy-i-cheremshi.jpg"
+  }
+},
+{
+  "model": "hw2.dish",
+  "pk": 4,
+  "fields": {
+    "name": "Домашний зефир",
+    "slug": "domashnij-zefir",
+    "image": "domashnij-zefir.jpg"
+  }
+},
+{
+  "model": "hw2.dish",
+  "pk": 5,
+  "fields": {
+    "name": "Шашлык в маринаде из айрана",
+    "slug": "shashlyk-v-marinade-iz-ajrana",
+    "image": "shashlyk-v-marinade-iz-ajrana.jpeg"
+  }
+},
+{
+  "model": "hw2.dish",
+  "pk": 6,
+  "fields": {
+    "name": "Ягодный морс",
+    "slug": "yagodnyj-mors",
+    "image": "yagodnyj-mors.jpg"
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 1,
+  "fields": {
+    "name": "Рикотта",
+    "unit": 1
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 2,
+  "fields": {
+    "name": "Брынза",
+    "unit": 1
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 3,
+  "fields": {
+    "name": "Клюква вяленая",
+    "unit": 2
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 4,
+  "fields": {
+    "name": "Пучок петрушки",
+    "unit": 3
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 5,
+  "fields": {
+    "name": "Лаваш тонкий",
+    "unit": 3
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 6,
+  "fields": {
+    "name": "Апельсин крупный",
+    "unit": 3
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 7,
+  "fields": {
+    "name": "Сахарозаменитель или мед",
+    "unit": 4
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 8,
+  "fields": {
+    "name": "Желатин",
+    "unit": 1
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 9,
+  "fields": {
+    "name": "Черемша",
+    "unit": 1
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 10,
+  "fields": {
+    "name": "Крапива",
+    "unit": 1
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 11,
+  "fields": {
+    "name": "Яйца куриные (вареные)",
+    "unit": 3
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 12,
+  "fields": {
+    "name": "Огурец",
+    "unit": 3
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 13,
+  "fields": {
+    "name": "Майонез (сметана)",
+    "unit": 1
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 14,
+  "fields": {
+    "name": "Яблоко",
+    "unit": 3
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 15,
+  "fields": {
+    "name": "Яичный белок",
+    "unit": 3
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 16,
+  "fields": {
+    "name": "Вода",
+    "unit": 5
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 17,
+  "fields": {
+    "name": "Сахар",
+    "unit": 1
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 18,
+  "fields": {
+    "name": "Агар-агар",
+    "unit": 1
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 19,
+  "fields": {
+    "name": "Свинина",
+    "unit": 6
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 20,
+  "fields": {
+    "name": "Айран",
+    "unit": 3
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 21,
+  "fields": {
+    "name": "Лук репчатый",
+    "unit": 3
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 22,
+  "fields": {
+    "name": "Соль, перец",
+    "unit": 1
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 23,
+  "fields": {
+    "name": "Замороженные ягоды",
+    "unit": 1
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 24,
+  "fields": {
+    "name": "Имбирь",
+    "unit": 8
+  }
+},
+{
+  "model": "hw2.ingredient",
+  "pk": 25,
+  "fields": {
+    "name": "Мед",
+    "unit": 2
+  }
+},
+{
+  "model": "hw2.unit",
+  "pk": 1,
+  "fields": {
+    "name": "г."
+  }
+},
+{
+  "model": "hw2.unit",
+  "pk": 2,
+  "fields": {
+    "name": "ст. л."
+  }
+},
+{
+  "model": "hw2.unit",
+  "pk": 3,
+  "fields": {
+    "name": "шт."
+  }
+},
+{
+  "model": "hw2.unit",
+  "pk": 4,
+  "fields": {
+    "name": "ч. л."
+  }
+},
+{
+  "model": "hw2.unit",
+  "pk": 5,
+  "fields": {
+    "name": "мл."
+  }
+},
+{
+  "model": "hw2.unit",
+  "pk": 6,
+  "fields": {
+    "name": "кг."
+  }
+},
+{
+  "model": "hw2.unit",
+  "pk": 7,
+  "fields": {
+    "name": "л."
+  }
+},
+{
+  "model": "hw2.unit",
+  "pk": 8,
+  "fields": {
+    "name": "кусок"
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 1,
+  "fields": {
+    "dish": 1,
+    "ingredient": 1,
+    "amount": 150
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 2,
+  "fields": {
+    "dish": 1,
+    "ingredient": 2,
+    "amount": 100
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 3,
+  "fields": {
+    "dish": 1,
+    "ingredient": 3,
+    "amount": 3
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 4,
+  "fields": {
+    "dish": 1,
+    "ingredient": 4,
+    "amount": 2
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 5,
+  "fields": {
+    "dish": 1,
+    "ingredient": 5,
+    "amount": 1
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 6,
+  "fields": {
+    "dish": 2,
+    "ingredient": 6,
+    "amount": 1
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 7,
+  "fields": {
+    "dish": 2,
+    "ingredient": 7,
+    "amount": 1
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 8,
+  "fields": {
+    "dish": 2,
+    "ingredient": 8,
+    "amount": 20
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 9,
+  "fields": {
+    "dish": 3,
+    "ingredient": 9,
+    "amount": 50
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 10,
+  "fields": {
+    "dish": 3,
+    "ingredient": 10,
+    "amount": 50
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 11,
+  "fields": {
+    "dish": 3,
+    "ingredient": 11,
+    "amount": 3
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 12,
+  "fields": {
+    "dish": 3,
+    "ingredient": 12,
+    "amount": 2
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 13,
+  "fields": {
+    "dish": 3,
+    "ingredient": 13,
+    "amount": 70
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 14,
+  "fields": {
+    "dish": 4,
+    "ingredient": 14,
+    "amount": 2
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 15,
+  "fields": {
+    "dish": 4,
+    "ingredient": 15,
+    "amount": 1
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 16,
+  "fields": {
+    "dish": 4,
+    "ingredient": 16,
+    "amount": 75
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 17,
+  "fields": {
+    "dish": 4,
+    "ingredient": 17,
+    "amount": 300
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 18,
+  "fields": {
+    "dish": 4,
+    "ingredient": 18,
+    "amount": 5
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 19,
+  "fields": {
+    "dish": 5,
+    "ingredient": 19,
+    "amount": 2
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 20,
+  "fields": {
+    "dish": 5,
+    "ingredient": 20,
+    "amount": 1
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 21,
+  "fields": {
+    "dish": 5,
+    "ingredient": 21,
+    "amount": 2
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 22,
+  "fields": {
+    "dish": 5,
+    "ingredient": 22,
+    "amount": 10
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 23,
+  "fields": {
+    "dish": 6,
+    "ingredient": 23,
+    "amount": 160
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 24,
+  "fields": {
+    "dish": 6,
+    "ingredient": 16,
+    "amount": 1
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 25,
+  "fields": {
+    "dish": 6,
+    "ingredient": 24,
+    "amount": 1
+  }
+},
+{
+  "model": "hw2.recipe",
+  "pk": 26,
+  "fields": {
+    "dish": 6,
+    "ingredient": 25,
+    "amount": 2
+  }
+}
+]

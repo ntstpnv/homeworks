@@ -1,0 +1,30 @@
+{% extends 'common/index.html' %}
+{% block content %}
+    <div style="text-align: center;">
+        <h1>{{ title }}</h1>
+        <hr>
+        <p>
+            <a href="?generate">Сгенерировать случайные данные</a>
+        </p>
+    </div>
+    <div style="display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 8px">
+        {% for course in object_list %}
+            <div style="border: 2px solid; padding: 16px; border-radius: 32px;">
+                <h2 style="text-align: center;">{{ course.name }}</h2>
+                <h4>Преподаватели:</h4>
+                <ul>
+                    {% for lecturer in course.lecturers.all %}<li>{{ lecturer.name }}</li>{% endfor %}
+                </ul>
+                <h4>Студенты:</h4>
+                <ul>
+                    {% for student in course.students.all %}<li>{{ student.name }}</li>{% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
+    <p style="text-align: center;">
+        <a href="{% url back %}">Назад</a>
+    </p>
+{% endblock content %}

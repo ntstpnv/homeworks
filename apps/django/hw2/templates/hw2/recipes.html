@@ -1,0 +1,36 @@
+{% extends 'common/index.html' %}
+{% block content %}
+    <div style="text-align: center;">
+        <h1>{{ title }}</h1>
+        <hr>
+        <div style="display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 9px">
+            {% for dish in page_obj.object_list %}
+                <div>
+                    <p>
+                        <a href="{% url 'recipe' dish.slug %}">{{ dish.name }}</a>
+                    </p>
+                    <img src="{{ dish.image.url }}"
+                         alt="{{ dish.name }}"
+                         style="width: 100%;
+                                height: auto;
+                                display: block;
+                                border-radius: 81px">
+                </div>
+            {% endfor %}
+        </div>
+        <p>
+            {% if page_obj.has_previous %}
+                <a href="?page={{ page_obj.previous_page_number }}">{{ page_obj.previous_page_number }}</a>
+            {% endif %}
+            <span style="font-weight: bold;">{{ page_obj.number }}</span>
+            {% if page_obj.has_next %}
+                <a href="?page={{ page_obj.next_page_number }}">{{ page_obj.next_page_number }}</a>
+            {% endif %}
+        </p>
+        <p>
+            <a href="{% url back %}">Назад</a>
+        </p>
+    </div>
+{% endblock content %}

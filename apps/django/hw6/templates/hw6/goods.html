@@ -1,0 +1,22 @@
+{% extends 'common/index.html' %}
+{% block content %}
+    <h1>{{ title }}</h1>
+    <hr>
+    <a href="{% url object_list.warehouses.path %}">{{ object_list.warehouses.title }}</a>
+    <br>
+    {% for object in object_list.warehouse_detail %}
+        <br>
+        <a href="{% url object.path object.id %}">{{ object.title }}</a>
+    {% endfor %}
+    <br>
+    <br>
+    <a href="{% url object_list.items.path %}">{{ object_list.items.title }}</a>
+    <br>
+    {% for object in object_list.item_detail %}
+        <br>
+        <a href="{% url object.path object.id %}">{{ object.title }}</a>
+    {% endfor %}
+    <br>
+    <br>
+    <a href="{% url back %}">Назад</a>
+{% endblock content %}

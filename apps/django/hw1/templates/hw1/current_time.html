@@ -1,0 +1,16 @@
+{% extends 'common/index.html' %}
+{% block content %}
+    <h1>{{ title }}</h1>
+    <hr>
+    <div id="utc"></div>
+    <script>
+    setInterval(() => {
+        const now = new Date();
+        const time = now.toLocaleTimeString('ru-RU', { timeZone: 'UTC' });
+        const date = now.toLocaleDateString('ru-RU', { timeZone: 'UTC' });
+        document.getElementById('utc').innerHTML = `(UTC) ${time} ${date}`;
+    }, 1000);
+    </script>
+    <br>
+    <a href="{% url back %}">Назад</a>
+{% endblock content %}

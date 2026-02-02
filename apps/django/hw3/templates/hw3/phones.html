@@ -1,0 +1,27 @@
+{% extends 'common/index.html' %}
+{% block content %}
+    <div style="text-align: center;">
+        <h1>{{ title }}</h1>
+        <hr>
+        <p>
+            Сортировка:
+            <a href="?sort=name">по названию</a> |
+            <a href="?sort=price">сначала недорогие</a> |
+            <a href="?sort=-price">сначала дорогие</a>
+        </p>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr);">
+            {% for phone in object_list %}
+                <div>
+                    <a href="{% url 'phone' phone.slug %}">{{ phone.name }} ({{ phone.release_date.year }})</a>
+                    <br>
+                    {{ phone.price }} ₽
+                    <br>
+                    <img height="400" src="{{ phone.image }}" alt="{{ phone.name }}">
+                </div>
+            {% endfor %}
+        </div>
+        <p>
+            <a href="{% url back %}">Назад</a>
+        </p>
+    </div>
+{% endblock content %}
