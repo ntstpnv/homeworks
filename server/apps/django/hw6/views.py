@@ -4,7 +4,7 @@ from rest_framework.filters import SearchFilter
 from rest_framework.pagination import PageNumberPagination
 from rest_framework import viewsets
 
-from apps.common import views
+from server.common import views
 from . import serializers, models
 
 

@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class Hw2Config(AppConfig):
-    name = "apps.django.hw2"
+    name = "server.apps.django.hw2"

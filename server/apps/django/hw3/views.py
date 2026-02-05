@@ -1,7 +1,7 @@
 from django.conf import settings
 from django.shortcuts import redirect
 
-from apps.common import views
+from server.common import views
 from . import models
 
 

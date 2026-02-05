@@ -1,6 +1,6 @@
 from django.conf import settings
 
-from apps.common import views
+from server.common import views
 from . import models
 
 

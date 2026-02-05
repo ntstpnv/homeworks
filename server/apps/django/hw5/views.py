@@ -1,8 +1,7 @@
 from django.conf import settings
 from rest_framework import mixins, viewsets
 
-
-from apps.common import views
+from server.common import views
 from . import serializers, models
 
 

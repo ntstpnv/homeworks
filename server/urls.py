@@ -4,8 +4,7 @@ from django.contrib import admin
 from django.urls import include, path
 from debug_toolbar.toolbar import debug_toolbar_urls
 
-from apps.common import views
-
+from server.common import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -30,7 +29,7 @@ urlpatterns = [
         for group in settings.APPS
     ],
     *[
-        path(f"{group}/{link.path}/", include(f"apps.{group}.{link.path}.urls"))
+        path(f"{group}/{link.path}/", include(f"server.apps.{group}.{link.path}.urls"))
         for group, apps in settings.APPS.items()
         for link in apps
     ],

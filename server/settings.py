@@ -15,7 +15,7 @@ from pathlib import Path
 
 from environ import Env
 
-from .common import constants
+from server.common import constants
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -100,7 +100,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "apps.urls"
+ROOT_URLCONF = "server.urls"
 
 TEMPLATES = [
     {
@@ -170,8 +170,8 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 STATICFILES_DIRS = [
-    BASE_DIR / "apps" / "common" / "static",
-    BASE_DIR / "apps" / "django" / "hw4" / "static",
+    BASE_DIR / "apps" / "apps/common" / "static",
+    BASE_DIR / "apps" / "apps/django" / "hw4" / "static",
 ]
 
 MEDIA_URL = "/media/"
