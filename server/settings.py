@@ -49,14 +49,14 @@ INSTALLED_APPS = [
     "django_filters",
     "rest_framework",
     #
-    "apps.common.apps.CommonConfig",
+    "server.common.apps.CommonConfig",
     #
-    "apps.django.hw1.apps.Hw1Config",
-    "apps.django.hw2.apps.Hw2Config",
-    "apps.django.hw3.apps.Hw3Config",
-    "apps.django.hw4.apps.Hw4Config",
-    "apps.django.hw5.apps.Hw5Config",
-    "apps.django.hw6.apps.Hw6Config",
+    "server.apps.django.hw1.apps.Hw1Config",
+    "server.apps.django.hw2.apps.Hw2Config",
+    "server.apps.django.hw3.apps.Hw3Config",
+    "server.apps.django.hw4.apps.Hw4Config",
+    "server.apps.django.hw5.apps.Hw5Config",
+    "server.apps.django.hw6.apps.Hw6Config",
 ]
 
 
@@ -170,8 +170,8 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 STATICFILES_DIRS = [
-    BASE_DIR / "apps" / "apps/common" / "static",
-    BASE_DIR / "apps" / "apps/django" / "hw4" / "static",
+    BASE_DIR / "server" / "common" / "static",
+    BASE_DIR / "server" / "apps" / "django" / "hw4" / "static",
 ]
 
 MEDIA_URL = "/media/"
