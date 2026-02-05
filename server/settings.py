@@ -15,8 +15,6 @@ from pathlib import Path
 
 from environ import Env
 
-from server.common import constants
-
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -48,9 +46,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django_filters",
     "rest_framework",
-    #
     "server.common.apps.CommonConfig",
-    #
     "server.apps.django.hw1.apps.Hw1Config",
     "server.apps.django.hw2.apps.Hw2Config",
     "server.apps.django.hw3.apps.Hw3Config",
@@ -60,30 +56,40 @@ INSTALLED_APPS = [
 ]
 
 
-def parser():
+def link_builder():
+    _GROUPS = {
+        "django": "Django: создание backend-приложений",
+    }
+
+    _APPS = {
+        "hw1": "Знакомство с Django. Подготовка и запуск проекта",
+        "hw2": "Обработка запросов и шаблоны",
+        "hw3": "Работа с ORM",
+        "hw4": "Работа с ORM, 2 часть",
+        "hw5": "Знакомство с API на примере Django REST framework",
+        "hw6": "CRUD в DRF",
+    }
+
     groups = []
     apps = defaultdict(list)
 
-    paths = sorted(Path("apps").rglob("apps.py"))
+    paths = Path("server/apps").rglob("apps.py")
     for path in paths:
         group = path.parent.parent.name
 
-        if group == "apps":
-            continue
-
-        link = LINK(constants.GROUPS[group], group)
+        link = LINK(_GROUPS[group], group)
         if link not in groups:
             groups.append(link)
 
         app = path.parent.name
-        link = LINK(constants.APPS[app], app)
+        link = LINK(_APPS[app], app)
         apps[group].append(link)
 
     return groups, apps
 
 
 LINK = namedtuple("Link", ["title", "path", "id"], defaults=[None])
-GROUPS, APPS = parser()
+GROUPS, APPS = link_builder()
 
 INTERNAL_IPS = [
     "127.0.0.1",

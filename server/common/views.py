@@ -14,7 +14,7 @@ class BaseTemplateView(generic.TemplateView):
 
 
 class MenuView(generic.ListView):
-    template_name = "common/templates/common/menu.html"
+    template_name = "common/menu.html"
 
     title = "Выберите задание"
     back = None
