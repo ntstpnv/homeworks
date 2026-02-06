@@ -6,6 +6,7 @@ from debug_toolbar.toolbar import debug_toolbar_urls
 
 from server.common import views
 
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path(
